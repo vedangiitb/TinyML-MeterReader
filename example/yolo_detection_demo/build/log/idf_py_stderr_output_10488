@@ -1,0 +1,25 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40056f60: memcpy in ROM
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+[0m
+[0;33m0x40056f5c: memcpy in ROM
+0x40056f72: memcpy in ROM
+[0m
+[0;33m0x40056f59: memcpy in ROM
+0x4200b4a3: edgelab::rgb888_to_rgb888(el_img_t const*, el_img_t*) at C:/Users/vedan/sscma-example-esp32/components/sscma-micro/core/utils/el_cv.cpp:192 (discriminator 4)
+0x4200c6c1: edgelab::rgb_to_rgb(el_img_t const*, el_img_t*) at C:/Users/vedan/sscma-example-esp32/components/sscma-micro/core/utils/el_cv.cpp:904
+0x4200ca19: edgelab::el_img_convert(el_img_t const*, el_img_t*) at C:/Users/vedan/sscma-example-esp32/components/sscma-micro/core/utils/el_cv.cpp:998
+0x42009f84: edgelab::AlgorithmYOLO::preprocess() at C:/Users/vedan/sscma-example-esp32/components/sscma-micro/core/algorithm/el_algorithm_yolo.cpp:125
+0x4200f3b8: edgelab::base::Algorithm::underlying_run(void*) at C:/Users/vedan/sscma-example-esp32/components/sscma-micro/core/algorithm/el_algorithm_base.cpp:69
+0x4200a169: edgelab::AlgorithmYOLO::run(el_img_t*) at C:/Users/vedan/sscma-example-esp32/components/sscma-micro/core/algorithm/el_algorithm_yolo.cpp:118
+0x42009c0a: app_main at C:/Users/vedan/sscma-example-esp32/examples/yolo_detection_demo/main/app_main.cpp:469
+0x42114cff: main_task at C:/Espressif/frameworks/esp-idf-v5.2/components/freertos/app_startup.c:208
+0x4038035d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375cdc: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m

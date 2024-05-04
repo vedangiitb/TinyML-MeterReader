@@ -1,0 +1,22 @@
+[0;33m--- WARNING: GDB cannot open serial ports accessed as COMx[0m
+[0;33m--- Using \\.\COM3 instead...[0m
+[0;33m--- esp-idf-monitor 1.4.0 on \\.\COM3 115200 ---[0m
+[0;33m--- Quit: Ctrl+] | Menu: Ctrl+T | Help: Ctrl+T followed by Ctrl+H ---[0m
+[0;33m0x40048d06: uart_rx_one_char in ROM
+[0m
+[0;33m0x42045a0a: ll_cam_set_pin at C:/Users/vedan/sscma-example-esp32/components/esp32-camera/target/esp32s3/ll_cam.c:306
+[0m
+[0;33m0x400570e8: memset in ROM
+0x400570f3: memset in ROM
+[0m
+[0;33m0x42045a07: ll_cam_set_pin at C:/Users/vedan/sscma-example-esp32/components/esp32-camera/target/esp32s3/ll_cam.c:306
+0x4203b177: cam_init at C:/Users/vedan/sscma-example-esp32/components/esp32-camera/driver/cam_hal.c:339
+0x4203aa77: esp_camera_init at C:/Users/vedan/sscma-example-esp32/components/esp32-camera/driver/esp_camera.c:275
+0x4200f50f: edgelab::CameraEsp::init(unsigned int, unsigned int) at C:/Users/vedan/sscma-example-esp32/components/sscma-micro/porting/espressif/el_camera_esp.cpp:65
+0x42009b8b: app_main at C:/Users/vedan/sscma-example-esp32/examples/yolo_detection_demo/main/app_main.cpp:453
+0x42114cfb: main_task at C:/Espressif/frameworks/esp-idf-v5.2/components/freertos/app_startup.c:208
+0x4038035d: vPortTaskWrapper at C:/Espressif/frameworks/esp-idf-v5.2/components/freertos/FreeRTOS-Kernel/portable/xtensa/port.c:134
+[0m
+[0;33m0x40375cdc: esp_restart_noos at C:/Espressif/frameworks/esp-idf-v5.2/components/esp_system/port/soc/esp32s3/system_internal.c:159
+[0m
+[0m
